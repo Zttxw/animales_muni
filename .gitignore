@@ -1,0 +1,62 @@
+# =========================
+# DEPENDENCIAS
+# =========================
+/vendor
+/node_modules
+
+# =========================
+# ARCHIVOS DE ENTORNO (SENSIBLES)
+# =========================
+.env
+.env.*
+!.env.example
+.env.backup
+.env.production
+auth.json
+
+# =========================
+# LARAVEL STORAGE Y CACHE
+# =========================
+/storage/*.key
+/storage/pail
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# =========================
+# PUBLIC BUILD / FRONTEND
+# =========================
+/public/build
+/public/hot
+/public/storage
+
+# =========================
+# CACHE / TESTING
+# =========================
+.phpunit.result.cache
+/.phpunit.cache
+.phpactor.json
+
+# =========================
+# IDEs Y EDITORES
+# =========================
+/.vscode
+/.idea
+/.nova
+/.zed
+/.cursor/
+/.codex
+
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# LARAVEL HERRAMIENTAS
+# =========================
+_ide_helper.php
+Homestead.json
+Homestead.yaml
